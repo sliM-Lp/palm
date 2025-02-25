@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/scicore/home/schwede/pantol0000/repositories/alphabeta_classic/scripts/sequences_to_pLM_embeddings.py", line 14, in <module>
+    tokenizer = T5Tokenizer.from_pretrained('Rostlab/prot_t5_xl_uniref50-enc', local_files_only=True, do_lower_case=False)
+  File "/scicore/home/schwede/pantol0000/mambaforge/envs/eba/lib/python3.9/site-packages/transformers/tokenization_utils_base.py", line 1785, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load tokenizer for 'Rostlab/prot_t5_xl_uniref50-enc'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Rostlab/prot_t5_xl_uniref50-enc' is the correct path to a directory containing all relevant files for a T5Tokenizer tokenizer.
